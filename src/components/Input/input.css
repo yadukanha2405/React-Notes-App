@@ -1,0 +1,40 @@
+.input-container {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 1rem;
+  /* width: 250px; */
+  min-height: 170px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+textarea {
+  background-color: aquamarine;
+  border: none;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.input-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 4rem;
+  padding: 0.3rem;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: floralwhite;
+  opacity: 1;
+  cursor: pointer;
+}
